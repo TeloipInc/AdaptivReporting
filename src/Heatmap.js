@@ -66,6 +66,14 @@ export default function HeatMap (props) {
         show: false
       }
     }],
+    toolbox: {
+      show: true,
+      feature: {
+        dataView: { readOnly: true },
+        saveAsImage: {},
+        restore: {}
+      }
+    },
     dataZoom: [
       { type: 'slider' },
       { type: 'inside' }
